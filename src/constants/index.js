@@ -11,10 +11,6 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "cards", ///cards
-    title: "Cards",
-  },
-  {
     id: "plans",
     title: "Plans",
   },
@@ -209,7 +205,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/sebastian-gomez-salinas-510586246/",
+    link: "https://www.linkedin.com/",
   },
 ];
 
