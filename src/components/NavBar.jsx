@@ -2,7 +2,7 @@ import React from 'react'
 
 import { useState } from 'react'
 import { close, logo, menu, newlogo } from "../assets"
-import { navLinks } from "../constants"
+import { navLinks, socialMedia } from "../constants"
 
 
 const NavBar = () => {
@@ -14,10 +14,19 @@ const NavBar = () => {
       <img src={newlogo} alt="hoobank" className='w-[114px] h-[72px] ' />
       <h1 className='flex-1 font-poppins font-semibold ss:text-[50px]
                        text-[52px] text-white ss:leading-[100px] ml-5 ' >
-      <span className='text-gradient'>
-        Trust RWA <br className='sm:block hidden' /> {" "}
-      </span>
+        <span className='text-gradient'>
+          Trust RWA <br className='sm:block hidden' /> {" "}
+        </span>
       </h1>
+
+      <div className='flex flex-row md:mt-0 mt-6 ' >
+        {socialMedia.map((social, index) => (
+          <a href={social.link} target="_blank">
+            <img key={social.id} src={social.icon} alt={social.id}
+              className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? 'mr-6' : 'mr-0'} `} />
+          </a>
+        ))}
+      </div>
 
       <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
         {navLinks.map((nav, index) => (

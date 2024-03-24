@@ -1,6 +1,7 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
+import telegram from "./telegram.svg";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
@@ -78,6 +79,7 @@ export {
   instagram,
   linkedin,
   twitter,
+  telegram,
   people01,
   people02,
   people03,

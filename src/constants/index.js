@@ -1,6 +1,6 @@
 import {
   people01, people02, people03, facebook, instagram, linkedin,
-  twitter, airbnb, binance, coinbase, dropbox, send, shield,
+  twitter, telegram,airbnb, binance, coinbase, dropbox, send, shield,
   star, coingecko, cryptocom, binancelogo, coinbaselogo, nasdaq,money, savehand, security, bank,
   market, dollar, interest
 } from "../assets";
@@ -94,7 +94,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "7800+",
+    value: "4800+",
   },
   {
     id: "stats-2",
@@ -104,7 +104,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Trading Volume",
-    value: "$90M+",
+    value: "$23M+",
   },
 ];
 
@@ -187,25 +187,25 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
+  // {
+  //   id: "social-media-1",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/",
+  // },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/RWA_UEA",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: telegram,
+    link: "https://t.me/+c-I_Q2Gfj405OTgx",
   },
 ];
 
